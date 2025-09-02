@@ -1,0 +1,14 @@
+POST http://localhost:4000/patients/create
+Content-Type: application/json
+
+{
+  "firstName": "Mary",
+  "lastName": "Wilson",
+  "email": "david.wilson@example.com",
+  "gender": "Female",
+  "age": "49",
+  "birthDate": "1975-01-11",
+  "address": "456 Ash St, Capital City",
+  "registeredDate": "2022-10-10"
+}
+
