@@ -1,0 +1,81 @@
+# -------------------------
+# Java / Maven
+# -------------------------
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# -------------------------
+# IntelliJ / IDEs
+# -------------------------
+.idea/
+*.iml
+*.iml-backup
+*.iml.old
+out/
+*.swp
+*.swo
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Logs / Temp
+# -------------------------
+*.log
+logs/
+hs_err_pid*
+*.pid
+*.seed
+*.tmp
+*.bak
+
+# -------------------------
+# Docker / Volumes
+# -------------------------
+db-volumes/
+docker-data/
+*.db
+*.sql
+
+# -------------------------
+# Node.js (if frontend exists inside repo)
+# -------------------------
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -------------------------
+# Environment / Config
+# -------------------------
+.env
+*.local.properties
+application-*.yml
+application-*.properties
+
+# -------------------------
+# Others
+# -------------------------
+patient-management.im
